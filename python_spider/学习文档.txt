@@ -1,0 +1,5 @@
+Urllib：用来连接url登陆等获取返回信息；可伪装为浏览器，全模拟连接； 配合fiddle抓包工具使用 ；--范例见1_Urllib_study下的urllib.py ,urllib_request_Request.py 
+requests:
+安装requests： pip install requests
+比Urllib更简单的访问url。以后主要用这个来访问。  --范例见2_requests_study\requests_1.py
+re：该模块用作正则表达式  和其它类似 主要有 字符串匹配、切片、替换所有、查找所有等  --范例见3_re_study\re_1.py
