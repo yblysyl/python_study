@@ -28,11 +28,9 @@ def request_douban(url):
 def main(url):
     html = request_douban(url)
     soup = BeautifulSoup(html, 'lxml')
-    print(url)
     save_content(soup)
     
 def save_content(soup):
-   print(soup.find(class_='grid_view'))
    list = soup.find(class_='grid_view').find_all('li')
    for item in list:
        item_name = item.find(class_='title').string  # 电影名 find只能获取到第一个元素
