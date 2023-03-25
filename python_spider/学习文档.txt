@@ -1,7 +1,19 @@
 Urllib：用来连接url登陆等获取返回信息；可伪装为浏览器，全模拟连接； 配合fiddle抓包工具使用 ；--范例见1_Urllib_study下的urllib.py ,urllib_request_Request.py 
+
 requests:
 安装requests： pip install requests
 比Urllib更简单的访问url。以后主要用这个来访问。  --范例见2_requests_study\requests_1.py
+
 re：该模块用作正则表达式  和其它类似 主要有 字符串匹配、切片、替换所有、查找所有等  --范例见3_re_study\re_1.py
+
 当当网爬取练习：包含了主方法和函数的使用、re和requests库的使用、异常处理使用、文件打开与写入的使用、yield与生成器generator的使用、if和for循环的使用  --范例见4_Examples\1re&requests_dangdang.py
 其中在 4_Examples\1_re&requests_dangdang.py和 4_Examples\2_path.py中包含了os路径模块的使用
+
+BeautifulSoup:网页解析库将网页解析为dom树对象；可以从 HTML 或 XML 文件中提取数据
+安装：pip install beautifulsoup4   参考文档：https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/
+lxml：解析器 pip install lxml #众多解析器的一种
+--范例见 3_re_study\re_2_BeautifulSoup.py
+
+豆瓣网页爬取练习：包含BeautifulSoup和requests库的使用、xlwt库(写入excel)的使用 
+
+

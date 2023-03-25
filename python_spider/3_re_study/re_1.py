@@ -16,6 +16,7 @@ print(re.match('.*',"test").group(0))
 
 
 #搜索所有匹配子串返回列表
+import re
 print(re.findall('se*',"testdadwaseeawdwsedwasdase"))
 #搜索所有匹配子串返回迭代器
 print(re.finditer('se*',"testdadwaseeawdwsedwasdase"))
