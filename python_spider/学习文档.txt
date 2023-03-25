@@ -3,3 +3,5 @@ requests:
 安装requests： pip install requests
 比Urllib更简单的访问url。以后主要用这个来访问。  --范例见2_requests_study\requests_1.py
 re：该模块用作正则表达式  和其它类似 主要有 字符串匹配、切片、替换所有、查找所有等  --范例见3_re_study\re_1.py
+当当网爬取练习：包含了主方法和函数的使用、re和requests库的使用、异常处理使用、文件打开与写入的使用、yield与生成器generator的使用、if和for循环的使用  --范例见4_Examples\1re&requests_dangdang.py
+其中在 4_Examples\1_re&requests_dangdang.py和 4_Examples\2_path.py中包含了os路径模块的使用
