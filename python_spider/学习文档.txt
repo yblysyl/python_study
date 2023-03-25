@@ -21,3 +21,10 @@ selenium库：主要用来模拟人的行为；见 \5_selenium_study\selenium_1_
 bilibili网页爬取练习：包含BeautifulSoup和selenium库的使用 --范例见\4_Examples\4_selenium&phantomjs.py
 
 
+threading：python现用线程库    --范例见   \6_Thread_process\thread_1.py
+
+ThreadPoolExecutor：线程池  --范例见 \6_Thread_process\thread_2_ThreadPoolExecutor.py
+
+multiprocessing:多进程有关的库 --范例见 \6_Thread_process\process_3_multiprocessing.py
+
+
