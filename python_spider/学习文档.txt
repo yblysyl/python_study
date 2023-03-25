@@ -16,4 +16,8 @@ lxml：解析器 pip install lxml #众多解析器的一种
 
 豆瓣网页爬取练习：包含BeautifulSoup和requests库的使用、xlwt库(写入excel)的使用 
 
+selenium库：主要用来模拟人的行为；见 \5_selenium_study\selenium_1_config.py   ;感觉是比较核心的部分；可以操作dom树和几乎所有人的行为 ；
+
+bilibili网页爬取练习：包含BeautifulSoup和selenium库的使用 --范例见\4_Examples\4_selenium&phantomjs.py
+
 

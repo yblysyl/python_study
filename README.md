@@ -13,4 +13,6 @@
     /4Examples:
         豆瓣TOP250电影信息爬取
         当当网热门书籍信息爬取
-
+        哔哩哔哩搜索页面信息爬取
+    \5_selenium_study：
+        selenium库的使用
