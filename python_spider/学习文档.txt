@@ -27,4 +27,5 @@ ThreadPoolExecutor：线程池  --范例见 \6_Thread_process\thread_2_ThreadPoo
 
 multiprocessing:多进程有关的库 --范例见 \6_Thread_process\process_3_multiprocessing.py
 
+百度搜索爬取以及子页面内容初步提取;融合 multiprocessing、selenium、BeautifulSoup、requests的组合应用
 

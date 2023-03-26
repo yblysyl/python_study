@@ -9,6 +9,23 @@ from selenium.webdriver.support.ui import WebDriverWait  #from selenium.webdrive
 from selenium.webdriver.support import expected_conditions as EC
 import multiprocessing
 
+'''
+项目为5_web_test2
+
+该项目主要 
+设定搜索关键词
+打开百度首页搜索
+获取每页的真实url地址 和基本文本信息
+一句url地址获取url页的文本信息
+将信息放入数据库 ###数据库部分未实现留白
+
+
+另设定方法
+读取数据库url
+解析每个url中的页面信息和url
+将页面信息和url存入数据库
+
+'''
 
 ##解析页面信息
 def get_source():
@@ -75,7 +92,9 @@ def savesql(content_data,url,type):
         '''
         可以参考
         for url_chirden in content_data
-            插入数据库(父url,子url,类型)
+            检验子url_chirden是否已插入,如果已插入跳过
+            插入数据库(url,url_chirden,类型)
+        插入完成后将父url标记为已扫描
         '''
         print(url+':',content_data)
     elif type == 'text':

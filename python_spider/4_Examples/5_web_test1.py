@@ -10,7 +10,18 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait  #from selenium.webdriver.support.wait import WebDriverWait 等待
 from selenium.webdriver.support import expected_conditions as EC
 import multiprocessing
+'''
+该项目test不同于
+5_web_info_baidu
 
+本来尝试 在读取子url之后直接新建进程或线程进行深度遍历
+但这样子因为没对url进行状态标注 导致存在无休无止进入某一url的情况
+后续可更改
+    1、加入数据库,以便校验重复的url
+    2、加入状态数字,如:在关联url递归到第n层的时候判定为后续信息不在相,停止深度检索
+
+
+'''
 
 ##解析页面信息
 def get_source():
