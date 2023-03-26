@@ -1,0 +1,9 @@
+proxie = { 
+        'http' : 'http://xx.xxx.xxx.xxx:xxxx',
+        'http' : 'http://xxx.xx.xx.xxx:xxx',
+    }  
+response = requests.get(url,proxies=proxies) #使用代理
+
+
+开源代理抓取仓库推荐：
+https://github.com/Python3WebSpider/ProxyPool
