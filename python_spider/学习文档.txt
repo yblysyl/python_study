@@ -29,3 +29,35 @@ multiprocessing:多进程有关的库 --范例见 \6_Thread_process\process_3_mu
 
 百度搜索爬取以及子页面内容初步提取;融合 multiprocessing、selenium、BeautifulSoup、requests的组合应用
 
+
+其他的库：--用的时候在学 ，暂停一一段落
+    appium --操作手机app的库，作用类似selenium
+    数据分析：
+        matplotlib ---数据可视化相关应用
+        seaborn --基于matplotlib 的库，有更加高级的接口给我们使用
+        pyecharts  -- 这是基于百度开源的数据可视化的 echarts 的库
+
+    scrapy --爬虫框架
+        依赖库：lxml parsel  w3lib twisted cryptography and pyOpenSSL
+        安装：pip install Scrapy
+        拥有一整套爬取的方法，包含连接，信息获取，html解析，存入数据库
+
+    mitmproxy：
+        类似fiddler。不同的是它可以监听代理指向它的请求，获取信息，同时修改请求。 作用很大（截取网页通信信息，修改通信内容等等） 
+        手机端的话和电脑连接同一wifi,修改代理ip为电脑ip
+
+    常见反爬：
+        css加密：如位置信息错乱,字体编码加密等。应对，解析编码
+        js加密：如请求传输参数进行加解密。应对,调试找js文件
+        app：查壳脱壳反编译。
+            设备：安卓手机
+            抓包：fiddler+xposed+JustTrustme   --获取请求信息
+            查壳：ApkScan-PKID          --查看有无加壳加固
+            脱壳：frida-DEXDump         --有则脱壳
+            反编译：jadx-gui    --反编译让你大致看到信息
+            hook：frida         --监听事件、截获消息、替换原函数 也叫钩子、挂钩
+        Python 有专门的库来操作 socket
+
+    websocket-client、websockets库：连接websocket协议，这类一般用于实时获取，数据动态变化的情况，如股票走势、直播等  --ws协议
+    分布式爬虫：模块解耦，多服务器部署，redis进行消息通信
+
