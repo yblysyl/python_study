@@ -54,6 +54,7 @@ def save_content(soup):
        sheet.write(n, 5, item_img)
        sheet.write(n, 6, item_a)
        n=n+1
+       book.save(os.path.dirname(os.path.abspath(__file__))+'\\豆瓣最受欢迎的250部电影.xls')
 if __name__ == '__main__':
     start = time.time()
     urls = []

@@ -4,6 +4,8 @@ import time
 from bs4 import BeautifulSoup
 import requests
 import re
+import os
+import xlwt ##写入excel
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait  #from selenium.webdriver.support.wait import WebDriverWait 等待
 from selenium.webdriver.support import expected_conditions as EC
