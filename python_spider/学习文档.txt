@@ -33,6 +33,10 @@ bilibili用户信息爬起 主要是json的使用.    --范例见    \4_Examples
 
 
 其他的库：--用的时候在学 ，暂停一一段落
+    phantomjs ：
+        下载地址：http://phantomjs.org/download.html
+        使用：1. 配置环境变量 2. browser = webdriver.PhantomJS()
+        作用：不会打开任何有界面的浏览器
     appium --操作手机app的库，作用类似selenium
     数据分析：
         matplotlib ---数据可视化相关应用
@@ -62,4 +66,5 @@ bilibili用户信息爬起 主要是json的使用.    --范例见    \4_Examples
 
     websocket-client、websockets库：连接websocket协议，这类一般用于实时获取，数据动态变化的情况，如股票走势、直播等  --ws协议
     分布式爬虫：模块解耦，多服务器部署，redis进行消息通信
+
 
