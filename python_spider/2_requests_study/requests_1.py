@@ -97,3 +97,11 @@ print("#########################################################################
 #设置超时  --报错是正常的 效果如此
 requests.get('https://github.com/', timeout=0.001)
 print("########################################################################################设置超时")
+
+
+###ip代理池
+proxie = { 
+        'http' : 'http://xx.xxx.xxx.xxx:xxxx',
+        'http' : 'http://xxx.xx.xx.xxx:xxx',
+    }  
+response = requests.get(url,proxies=proxie)

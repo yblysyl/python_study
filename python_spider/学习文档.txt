@@ -14,7 +14,7 @@ BeautifulSoup:网页解析库将网页解析为dom树对象；可以从 HTML 或
 lxml：解析器 pip install lxml #众多解析器的一种
 --范例见 3_re_study\re_2_BeautifulSoup.py
 
-豆瓣网页爬取练习：包含BeautifulSoup和requests库的使用、xlwt库(写入excel)的使用 
+豆瓣网页爬取练习：包含BeautifulSoup和requests库的使用、xlwt库(写入excel)的使用    --范例见   \4_Examples\3_BeautifulSoup&requests_douban.py
 
 selenium库：主要用来模拟人的行为；见 \5_selenium_study\selenium_1_config.py   ;感觉是比较核心的部分；可以操作dom树和几乎所有人的行为 ；
 
@@ -27,7 +27,9 @@ ThreadPoolExecutor：线程池  --范例见 \6_Thread_process\thread_2_ThreadPoo
 
 multiprocessing:多进程有关的库 --范例见 \6_Thread_process\process_3_multiprocessing.py
 
-百度搜索爬取以及子页面内容初步提取;融合 multiprocessing、selenium、BeautifulSoup、requests的组合应用
+百度搜索爬取以及子页面内容初步提取;融合 multiprocessing、selenium、BeautifulSoup、requests的组合应用   --范例见    \4_Examples\5_web_info_baidu.py
+
+bilibili用户信息爬起 主要是json的使用.    --范例见    \4_Examples\6_bilibili_user_info.py
 
 
 其他的库：--用的时候在学 ，暂停一一段落
